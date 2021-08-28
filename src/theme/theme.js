@@ -89,6 +89,7 @@ const VazirLight = {
 };
 
 export const theme = createTheme({
+  direction: "rtl",
   typography: {
     fontFamily: [
       "Vazir",
