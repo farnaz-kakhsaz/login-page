@@ -37,6 +37,12 @@ export default function TextFieldBase({
         startAdornment: startAdornment,
         endAdornment: endAdornment,
       }}
+      InputLabelProps={{
+        classes: {
+          root: classes.inputLabelRoot,
+          shrink: classes.inputLabelShrink,
+        },
+      }}
     />
   );
 }
