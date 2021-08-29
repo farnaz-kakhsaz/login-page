@@ -1,8 +1,8 @@
 # login-page
 
-> Note: You can check out the demo here: [simple-login-page.vercel.app](https://simple-login-page.vercel.app)
-
 This is a [PWA](https://github.com/topics/pwa) Login Page.
+
+Also, for convenience, I deploy the project here as well: [simple-login-page.vercel.app](https://simple-login-page.vercel.app)
 
 ## Getting Started with Create React App
 
