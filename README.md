@@ -1,6 +1,8 @@
 # login-page
 
-This is a Login Page that user can see other lists of users.
+> Note: You can check out the demo here: [simple-login-page.vercel.app](https://simple-login-page.vercel.app)
+
+This is a [PWA](https://github.com/topics/pwa) Login Page.
 
 ## Getting Started with Create React App
 
