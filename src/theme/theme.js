@@ -112,4 +112,21 @@ export const theme = createTheme({
       },
     },
   },
+  palette: {
+    primary: {
+      light: "#99ecd9",
+      main: "#80E8D0",
+      dark: "#49cfb0",
+      contrastText: "#000",
+    },
+    secondary: {
+      light: "#ff7961",
+      main: "#f44336",
+      dark: "#ba000d",
+      contrastText: "#000",
+    },
+    text: {
+      primary: "#262626",
+    },
+  },
 });
