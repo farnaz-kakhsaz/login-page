@@ -7,6 +7,9 @@ import InputWithAdornment from "../../input-with-adornment/input-with-adornment.
 import ButtonBase from "../../items/button-base/button-base";
 // Helper
 import { useInputChange } from "../../../helper/useInputChange";
+// Images
+import WormImage from "../../../assets/images/worm.png";
+import Logo from "../../../assets/images/logo-1.png";
 // Styles
 import { useStyles } from "./login.styles";
 
@@ -20,6 +23,8 @@ export default function Login() {
   return (
     <ContainerBase>
       <div className={classes.root}>
+        <img src={Logo} className={classes.logoImage} alt="logo" />
+        <img src={WormImage} className={classes.wormImage} alt="worm" />
         <TypographyBase variant="h6" className={classes.typographyFirst}>
           {Localization.login_page_title_1}
         </TypographyBase>

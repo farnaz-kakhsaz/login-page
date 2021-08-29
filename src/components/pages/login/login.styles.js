@@ -2,12 +2,22 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: theme.spacing(45),
+    maxWidth: theme.spacing(42),
     margin: "auto",
     height: "100vh",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
+  },
+  logoImage: {
+    width: theme.spacing(6),
+    alignSelf: "flex-end",
+    marginBottom: theme.spacing(4),
+  },
+  wormImage: {
+    width: theme.spacing(22),
+    alignSelf: "flex-end",
+    marginBottom: theme.spacing(2.5),
   },
   typographyFirst: {
     fontWeight: theme.typography.fontWeightMedium,
