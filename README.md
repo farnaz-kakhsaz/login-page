@@ -1,6 +1,6 @@
 # login-page
 
-This is a [PWA](https://github.com/topics/pwa) Login Page.
+This is a [PWA](https://github.com/topics/pwa) Login Page that is ready for adding localization and theme.
 
 Also, for convenience, I deploy the project here as well: [simple-login-page.vercel.app](https://simple-login-page.vercel.app)
 
