@@ -14,6 +14,8 @@ export default function InputWithAdornment({
   value,
   inputLabel,
   onChange,
+  error,
+  helperText,
   ...rest
 }) {
   const classes = useStyles();
@@ -30,6 +32,8 @@ export default function InputWithAdornment({
       value={value}
       onChange={onChange}
       type={showPassword ? "text" : "password"}
+      error={error}
+      helperText={helperText}
       disableUnderline={true}
       dir="rtl"
       {...rest}
@@ -53,5 +57,7 @@ InputWithAdornment.propTypes = {
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   inputLabel: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
+  error: PropTypes.bool,
+  helperText: PropTypes.string,
   rest: PropTypes.any,
 };

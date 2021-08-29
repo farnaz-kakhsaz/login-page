@@ -10,6 +10,8 @@ export default function TextFieldBase({
   name,
   value,
   onChange,
+  error,
+  helperText,
   disableUnderline,
   startAdornment,
   endAdornment,
@@ -25,6 +27,8 @@ export default function TextFieldBase({
       type={type}
       value={value}
       onChange={onChange}
+      helperText={helperText}
+      error={error}
       fullWidth
       {...rest}
       inputProps={{ dir, name }}
@@ -54,6 +58,8 @@ TextFieldBase.propTypes = {
   name: PropTypes.string,
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   onChange: PropTypes.func.isRequired,
+  error: PropTypes.bool,
+  helperText: PropTypes.string,
   disableUnderline: PropTypes.bool,
   startAdornment: PropTypes.node,
   endAdornment: PropTypes.node,
